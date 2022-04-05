@@ -10,5 +10,10 @@ public class Controle {
     public String mensagem(){
         return "Hello World";
     }
+
+    @GetMapping("/bemVindo")
+    public String boasVindas(){
+        return "Seja bem vindo";
+    }
     
 }
